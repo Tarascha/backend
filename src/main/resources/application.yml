@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://courserds.crqpp12lnsno.us-east-2.rds.amazonaws.com/COURSEREG
+    username: haoliu
+    password: Luck1234
+  jpa:
+    hibernate.ddl-auto: create
+    generate-ddl: true
+    show-sql: true

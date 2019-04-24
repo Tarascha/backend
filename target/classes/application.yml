@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/COURSEREG
+    username: root
+    password: 2345vfhp
+  jpa:
+    hibernate.ddl-auto: create
+    generate-ddl: true
+    show-sql: true
